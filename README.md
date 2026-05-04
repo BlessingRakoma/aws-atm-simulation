@@ -1,4 +1,4 @@
-# 🏧 AWS Fintech ATM Simulation System
+# AWS Fintech ATM Simulation System
 
 > A cloud-based ATM banking simulation built on AWS, demonstrating real-world transaction processing, secure data storage, fraud detection, and role-based access control.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project simulates core ATM banking operations, deposits, withdrawals, balance tracking, and transaction logging — running entirely on AWS cloud infrastructure.
 
@@ -16,7 +16,7 @@ Built using **Amazon EC2**, **Amazon S3**, and **AWS IAM**, it models how real b
 
 ---
 
-## 🧩 Problem Statement
+## Problem Statement
 
 Modern financial systems must handle:
 - Accurate and reliable transaction processing
@@ -29,7 +29,7 @@ This project addresses each of these requirements using a simplified but functio
 
 ---
 
-## ☁️ AWS Services Used
+## AWS Services Used
 
 | Service | Purpose |
 |---|---|
@@ -39,7 +39,7 @@ This project addresses each of these requirements using a simplified but functio
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 User (CLI)
@@ -63,7 +63,7 @@ IAM Role (EC2 → S3 access, no stored credentials)
 
 ---
 
-## 🔐 Security Implementation
+## Security Implementation
 
 A role-based access control (RBAC) model was implemented using AWS IAM:
 
@@ -77,27 +77,27 @@ A role-based access control (RBAC) model was implemented using AWS IAM:
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 
-### 🏦 Banking Operations
+### Banking Operations
 - Deposit funds with real-time balance update
 - Withdraw funds with overdraft prevention
 - View current balance
 - Persistent storage via S3 (data survives instance restarts)
 
-### 🚨 Fraud Detection Logic
+### Fraud Detection Logic
 - **Withdrawal limit enforcement** — flags transactions above a defined threshold
 - **Overdraft prevention** — blocks withdrawals that exceed the available balance
 - **Suspicious transaction detection** — alerts triggered on unusual activity patterns
 
-### 📋 Audit & Logging
+### Audit & Logging
 - Every transaction is timestamped
 - Before and after balances recorded per transaction
 - Logs stored in S3 for a persistent audit trail
 
 ---
 
-## 🛠️ Build Process
+## Build Process
 
 ### Prerequisites
 - AWS account with Free Tier access
@@ -144,7 +144,7 @@ chmod +x *.sh
 
 ---
 
-## 💻 Script Overview
+## Script Overview
 
 | Script | Function |
 |---|---|
@@ -155,7 +155,7 @@ chmod +x *.sh
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | Step | Screenshot |
 |---|---|
@@ -168,14 +168,14 @@ chmod +x *.sh
 
 ---
 
-## 📊 Skills Demonstrated
+## Skills Demonstrated
 
 `AWS EC2` `Amazon S3` `AWS IAM` `Bash Scripting` `Linux Administration`  
 `RBAC` `Fraud Detection Logic` `Audit Logging` `Transaction Processing` `Cloud Security`
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Replace S3 flat-file storage with **DynamoDB** or **RDS** for relational data
 - [ ] Add **React frontend** for a browser-based ATM interface
@@ -185,7 +185,7 @@ chmod +x *.sh
 
 ---
 
-## 📚 Key Learnings
+## Key Learnings
 
 - How to deploy and secure an application in AWS end-to-end
 - Why IAM roles are preferred over access keys for EC2-to-S3 access
@@ -195,7 +195,7 @@ chmod +x *.sh
 
 ---
 
-## 👤 Author
+## Author
 
 **Blessing Rakoma**  
 Cloud Engineer | Fintech  

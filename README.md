@@ -157,8 +157,6 @@ chmod +x *.sh
 
 ## 📸 Screenshots
 
-> *(Add your screenshots in a `/screenshots` folder and reference them here)*
-
 | Step | Screenshot |
 |---|---|
 | IAM setup (users, groups, roles) | `screenshots/iam-setup.png` |

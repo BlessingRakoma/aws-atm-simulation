@@ -1,6 +1,6 @@
 # AWS Fintech ATM Simulation System
 
-> A cloud-based ATM banking simulation built on AWS, demonstrating real-world transaction processing, secure data storage, fraud detection, and role-based access control.
+A cloud-based ATM banking simulation built on AWS, demonstrating real-world transaction processing, secure data storage, fraud detection, and role-based access control.
 
 **Author:** Blessing Rakoma | Cloud Engineer / Fintech  
 **LinkedIn:** [linkedin.com/in/blessingrakoma](https://www.linkedin.com/in/blessingrakoma)  

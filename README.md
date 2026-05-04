@@ -1,6 +1,6 @@
 # 🏧 AWS Fintech ATM Simulation System
 
-> A cloud-based ATM banking simulation built on AWS — demonstrating real-world transaction processing, secure data storage, fraud detection, and role-based access control.
+> A cloud-based ATM banking simulation built on AWS, demonstrating real-world transaction processing, secure data storage, fraud detection, and role-based access control.
 
 **Author:** Blessing Rakoma | Cloud Engineer / Fintech  
 **LinkedIn:** [linkedin.com/in/blessingrakoma](https://www.linkedin.com/in/blessingrakoma)  
@@ -10,7 +10,7 @@
 
 ## 📌 Project Overview
 
-This project simulates core ATM banking operations — deposits, withdrawals, balance tracking, and transaction logging — running entirely on AWS cloud infrastructure.
+This project simulates core ATM banking operations, deposits, withdrawals, balance tracking, and transaction logging — running entirely on AWS cloud infrastructure.
 
 Built using **Amazon EC2**, **Amazon S3**, and **AWS IAM**, it models how real backend financial systems process transactions, manage persistent data, and enforce security — all within a cloud environment.
 
@@ -87,13 +87,13 @@ A role-based access control (RBAC) model was implemented using AWS IAM:
 
 ### 🚨 Fraud Detection Logic
 - **Withdrawal limit enforcement** — flags transactions above a defined threshold
-- **Overdraft prevention** — blocks withdrawals that exceed available balance
+- **Overdraft prevention** — blocks withdrawals that exceed the available balance
 - **Suspicious transaction detection** — alerts triggered on unusual activity patterns
 
 ### 📋 Audit & Logging
 - Every transaction is timestamped
 - Before and after balances recorded per transaction
-- Logs stored in S3 for persistent audit trail
+- Logs stored in S3 for a persistent audit trail
 
 ---
 
@@ -105,7 +105,7 @@ A role-based access control (RBAC) model was implemented using AWS IAM:
 - SSH key pair for EC2 access
 
 ### Step 1 — IAM Setup
-1. Created IAM users: `admin-user`, `customer-user`, `fraud-analyst`
+1. Created IAM users: `admin-user`, `customer-user`, `fraud-analyst.`
 2. Created IAM groups with appropriate permission policies
 3. Created an IAM role (`ec2-s3-access-role`) with S3 read/write policy
 4. Attached the role to the EC2 instance (no access keys used)
